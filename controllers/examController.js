@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import Exam from "../models/ExamModel.js"; // Assuming the model file is named teacher.js and located in the models directory
+import Exam from "../models/examModel.js"; // Assuming the model file is named teacher.js and located in the models directory
 // Create a new teacher
 export const createExamT = async (req, res) => {
     try {
